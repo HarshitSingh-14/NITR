@@ -154,7 +154,6 @@ with mp_pose.Pose(min_detection_confidence =0.5, min_tracking_confidence=0.5 ) a
         try:
             for classId, conf, box in zip(classIds.flatten(), confidence.flatten(), boundingBox):
                 cvzone.cornerRect(img, box)# draw rectangle
-                if: 
                 cv2.putText(img, f'{NamesOfObjects[classId - 1].upper()} {round(conf * 100, 2)}',
                             (box[0] + 10, box[1] + 30), cv2.FONT_HERSHEY_COMPLEX_SMALL,
                             1, (0, 255, 0), 2)
