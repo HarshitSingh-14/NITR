@@ -66,18 +66,17 @@ while True:
         for classId, conf, box in zip(classIds.flatten(), confidence.flatten(), boundingBox):
             cvzone.cornerRect(img, box)# draw rectangle
             if(classId==26 or classId==27 or classId==28 or classId==29 or classId==37 or classId==44 or classId==45 or classId==46 or classId ==47 or classId ==48  or classId==49 or classId ==50 or classId==51):
-                cv2.putText(img, f'{NamesOfObjects[classId - 1].upper()} [** Non Recyclable Wastes **]-> -->{round(conf * 100, 2)}',
+                cv2.putText(img, f' [** Non Recyclable Wastes **]-> -->{round(conf * 100, 2)}',
                             (box[0] + 10, box[1] + 30), cv2.FONT_HERSHEY_COMPLEX_SMALL,
                             1, (0, 255, 0), 2)
             elif(classId==52 or classId==53 or classId==54 or classId ==55 or classId ==56  or classId==57 or classId ==58 or classId==59 or classId==60 ):
-                cv2.putText(img, f'{NamesOfObjects[classId - 1].upper()} [** Recyclable Compose Wastes **] -> -->{round(conf * 100, 2)}',
+                cv2.putText(img, f' [** Recyclable Compose Wastes **] -> -->{round(conf * 100, 2)}',
                             (box[0] + 10, box[1] + 30), cv2.FONT_HERSHEY_COMPLEX_SMALL,
                             1, (0, 255, 0), 2)
             else:
                 cv2.putText(img, f'{NamesOfObjects[classId - 1].upper()} [** Normal Objects ** ]->  {round(conf * 100, 2)}',
                             (box[0] + 10, box[1] + 30), cv2.FONT_HERSHEY_COMPLEX_SMALL,
                             1, (0, 255, 0), 2)
-                
     except:
         pass
 
