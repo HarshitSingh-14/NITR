@@ -138,17 +138,17 @@ with mp_pose.Pose(min_detection_confidence =0.5, min_tracking_confidence=0.5 ) a
 
 
         # Pose Detection
-        # image = cv2.cvtColor(img, cv2.COLOR_RGB2BGR)
-        # image.flags.writeable =False 
+        image = cv2.cvtColor(img, cv2.COLOR_RGB2BGR)
+        image.flags.writeable =False 
     
-        # results = pose.process(image)
-        # image.flags.writeable = True
+        results = pose.process(image)
+        image.flags.writeable = True
 
-        # image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
+        image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
 
-        # mp_drawing.draw_landmarks(image, results.pose_landmarks, mp_pose.POSE_CONNECTIONS, 
-        # mp_drawing.DrawingSpec(color = (245,117, 66), thickness = 2, circle_radius = 2), mp_drawing.DrawingSpec(color = (245,66, 230), thickness = 2, circle_radius = 2))
-        # classIds, confidence , boundingBox= net.detect(img, confThreshold=threshold, nmsThreshold=nmsThreshold)
+        mp_drawing.draw_landmarks(image, results.pose_landmarks, mp_pose.POSE_CONNECTIONS, 
+        mp_drawing.DrawingSpec(color = (245,117, 66), thickness = 2, circle_radius = 2), mp_drawing.DrawingSpec(color = (245,66, 230), thickness = 2, circle_radius = 2))
+        classIds, confidence , boundingBox= net.detect(img, confThreshold=threshold, nmsThreshold=nmsThreshold)
         
         # cv2.imshow("huw",image)
         try:
