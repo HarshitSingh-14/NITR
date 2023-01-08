@@ -26,13 +26,13 @@ https://user-images.githubusercontent.com/77787531/135725554-0ffdb3f8-7047-411d-
 
 ## Our Team  🎳<br />
 Name - Aman Budhrani<br />
-Email - aman.budhrani@iiitg.ac.in
+Email - aman.budhrani@iiitg.ac.in <br/>
 Name - Harsh Vardhan <br />
-Email - harsh.vardhan@iiitg.ac.in. <br />
+Email - harsh.vardhan@iiitg.ac.in <br />
 Name - Harshit Singh <br />
-Email - harshit.singh@iiitg.ac.in.  Contact number: `8529468896` <br />
+Email - harshit.singh@iiitg.ac.in   <br />
 Name - Nisheet Karan <br />
-Email - nisheet.karan@iiitg.ac.in.  Contact number: `8529468896` <br />
+Email - nisheet.karan@iiitg.ac.in.  <br />
 
 
 
