@@ -2,7 +2,9 @@
 >"There is no such thing as "Away". When we throw anything away, it must go somewhere." <br />                                                  
                                                                 ~_Annie Leonard_    <br />
                                                                 
-[https://github.com/HarshitSingh-14/NITR/tree/main/Earth%20Hacks](Hack Earth)
+[https://github.com/HarshitSingh-14/NITR/tree/main/Earth%20Hacks] (Hack Earth)<br/>
+[https://youtu.be/q608c0-KRMg] (Video Youtube Link) <br/>
+[https://www.canva.com/design/DAFW6weqqj4/ZHglxVl2WWct6C-rHx8BnA/view?utm_content=DAFW6weqqj4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton] (Canva ppt link)
                                                                 
 ## Problem Statement  💻<br />
 
