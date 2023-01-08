@@ -2,6 +2,8 @@
 >"There is no such thing as "Away". When we throw anything away, it must go somewhere." <br />                                                  
                                                                 ~_Annie Leonard_    <br />
                                                                 
+                                                                https://github.com/HarshitSingh-14/NITR/tree/main/Earth%20Hacks
+                                                                
 ## Problem Statement  💻<br />
 
 1)  Garbage is thrown over several streets and locations in India and is not cleared.
