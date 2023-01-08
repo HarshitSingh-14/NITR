@@ -2,7 +2,7 @@
 >"There is no such thing as "Away". When we throw anything away, it must go somewhere." <br />                                                  
                                                                 ~_Annie Leonard_    <br />
                                                                 
-                                                                https://github.com/HarshitSingh-14/NITR/tree/main/Earth%20Hacks
+[https://github.com/HarshitSingh-14/NITR/tree/main/Earth%20Hacks](Hack Earth)
                                                                 
 ## Problem Statement  💻<br />
 
